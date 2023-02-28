@@ -1,0 +1,46 @@
+{
+  "Operations": "United Kingdom",
+  "serviceDesc": "Duis porttitor commodo lorem eu pharetra. Ut dignissim nisl in dui condimentum sagittis. Integer eu bibendum nisi. Vestibulum id quam in libero varius sagittis eget pellentesque risus. Donec imperdiet, diam a molestie vehicula, orci ligula fermentum arcu, blandit tempor sem libero ut ipsum.",
+  "industry": "Finance & Insurance",
+  "country": "United Kingdome",
+  "year": "Select",
+  "business": "Select",
+  "employee": "Select",
+  "businessTargets": "Select",
+  "branch": "Select",
+  "typeOfBusiness": "Service",
+  "typeOfBusinessOptions": [
+    {
+      "label": "Product",
+      "value": "Product"
+    },
+    {
+      "label": "Service",
+      "value": "Service"
+    },
+    {
+      "label": "Both",
+      "value": "Both"
+    }
+  ],
+  "countryOptions": ["One", "Two", "Three"],
+  "industryOptions": [
+    "Accommodation & Food",
+    "Arts & Entertainment",
+    "Construction",
+    "Education",
+    "Financial & Insurance",
+    "Goods Manufacturing",
+    "Human Health & Social Work",
+    "Information & Communication",
+    "Professional, Scientific & Technical Service",
+    "Travel & Transportation",
+    "Wholesale & Retail Trade",
+    "Other Industries"
+  ],
+  "yearOptions": ["1-2", "3-5", "6-10", ">10"],
+  "businessRevenueOptions": ["<£300k", "£300k – 1m", ">£1m"],
+  "employeeOptions": ["Below 10", "10 to 50", "Above 50"],
+  "businessTargetsOptions": ["Consumers", "B2B", "Both"],
+  "branchOptions": ["1-2", "3-5", "6-10", ">10"]
+}

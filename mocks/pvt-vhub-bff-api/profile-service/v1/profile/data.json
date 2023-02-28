@@ -1,0 +1,55 @@
+{
+  "id": "johndoe@samplemail.com",
+  "givenName": "John",
+  "familyName": "Doe",
+  "contactMedium": [
+    {
+      "mediumType": "email",
+      "characteristic": {
+        "emailAddress": "johndoe@samplemail.com"
+      }
+    }
+  ],
+  "partyCharacteristic": [
+    {
+      "name": "ProfileDetails",
+      "valueType": "Object",
+      "value": {
+        "websiteURL": "www.google.com",
+        "existingCustomer": true,
+        "consentDate": "2022-11-24T10:32:51.883Z",
+        "consentChannel": "V-Hub",
+        "consentToDataProcessing": true,
+        "consentToVFMarketing": false
+      }
+    },
+    {
+      "name": "KnowledgeCenterPreferences",
+      "valueType": "String-List",
+      "value": ["Social media"]
+    },
+    {
+      "name": "SavedArticles",
+      "valueType": "String-List",
+      "value": ["ART1234", "ART5678", "ART9101"]
+    },
+    {
+      "name": "CompetitorURLs",
+      "valueType": "String-List",
+      "value": ["www.abc.com", "www.def.com", "www.xyz.com"]
+    }
+  ],
+  "relatedParty": [
+    {
+      "name": "ABC Corporation",
+      "role": "organization"
+    }
+  ],
+  "externalIdentifier": [
+    {
+      "id": "123241",
+      "externalIdentifierType": "ContactID",
+      "owner": "Eloqua"
+    }
+  ]
+}

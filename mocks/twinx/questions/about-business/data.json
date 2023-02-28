@@ -1,0 +1,555 @@
+{
+  "id": "671",
+  "direction": "outbound",
+  "reason": "Customer wants to take a assessment",
+  "interactionItem": [
+   {
+    "id": "1",
+    "item": {
+     "category": [
+      {
+       "name": "finding & keeping customers",
+       "subCategory": [
+        {
+         "name": "finding & keeping customers"
+        }
+       ]
+      }
+     ],
+     "question": [
+      {
+       "id": "13",
+       "externalId": "1",
+       "questionText": "Does your business currently have a website?",
+       "responseType": "multipleChoiceSingleResponse",
+       "responseOption": [
+        "Yes",
+        "No"
+       ],
+       "relatedQuestion": [
+        {
+         "externalId": "1",
+         "section": "about business",
+         "total": "7",
+         "template": "NameTyper",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "ABC Corporation"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "1",
+          "questionText": "Your Business Name",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": []
+         }
+        },
+        {
+         "externalId": "2",
+         "section": "about business",
+         "total": "7",
+         "template": "IconSelector",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Finance & Insurance"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "2",
+          "questionText": "Select your Industry",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Accommodation & Food",
+           "Goods Manufacturing",
+           "Arts & Entertainment",
+           "Human Health & Social Work",
+           "Construction",
+           "Media & Communication",
+           "Education",
+           "Professional, Scientific & Technical Service",
+           "Finance & Insurance",
+           "Travel & Transportation",
+           "Wholesale & Retail Trade",
+           "Other Industries"
+           ]
+         }
+        },
+        {
+         "externalId": "3",
+         "section": "about business",
+         "total": "7",
+         "template": "IconSelector",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": ["Option Two"],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "3",
+          "questionText": "Select your Business Sector",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Option One",
+           "Option Two",
+           "Other Sector"
+          ]
+         }
+        },
+        {
+         "externalId": "4",
+         "section": "about business",
+         "total": "7",
+         "template": "DropDown",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "UK"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "4",
+          "questionText": "Select your Country of Operations",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "UK",
+           "US"
+          ]
+         }
+        },
+        {
+         "externalId": "5",
+         "section": "about business",
+         "total": "7",
+         "template": "ButtonSelector",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Service"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "5",
+          "questionText": "Select your type of Operations",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Product",
+           "Service",
+           "Both"
+          ]
+         }
+        },
+        {
+         "externalId": "6",
+         "section": "about business",
+         "total": "7",
+         "template": "TextField",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Duis porttitor commodo lorem eu pharetra. Ut dignissim nisl in dui condimentum sagittis. Integer eu bibendum nisi. Vestibulum id quam in libero varius sagittis eget pellentesque risus. Donec imperdiet, diam a molestie vehicula, orci ligula fermentum arcu, blandit tempor sem libero ut ipsum."
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "6",
+          "questionText": "Product and/or service description",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": []
+         }
+        },
+        {
+         "externalId": "7",
+         "section": "about business",
+         "total": "7",
+         "template": "ButtonSelector",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": ["B2B"],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Who is your customer?",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "B2B",
+           "B2C",
+           "B2B2C"
+          ]
+         }
+        },
+        {
+         "externalId": "8",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Can you clearly describe who your target customer is?",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        },
+        {
+         "externalId": "9",
+         "section": "find keep",
+         "template": "MultiSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "GMB"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Which of the following do you have?",
+          "subInfo": "Choose all the options that apply",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Website",
+           "Social Media",
+           "GMB",
+           "None"
+          ]
+         }
+        },
+        {
+         "externalId": "10",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Is your online presence optimised?",
+          "subInfo": "This question has 3 parts",
+          "subHeading": "Part 1 - Our Website is optimised with great content, great device & browser compatibility, availability, and SEO",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        },
+        {
+         "externalId": "11",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "No"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Is your online presence optimised?",
+          "subInfo": "This question has 3 parts",
+          "subHeading": "2 - Our Google My Business profile is complete and up to date",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        },
+        {
+         "externalId": "12",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Is your online presence optimised?",
+          "subInfo": "this question has 3 parts",
+          "subHeading": "Part 3 - Our Social Media accounts are integrated, and we have an active presence across all",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        },
+        {
+         "externalId": "13",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Have you considered alternative ways to reach (potential) customers? Which of the following have you tried if any?",
+          "subInfo": "this question has 3 parts",
+          "subHeading": "Part 1 - Social influencers and/or partnerships with other businesses",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No"
+          ]
+         }
+        },
+        {
+         "externalId": "14",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Have you considered alternative ways to reach (potential) customers? Which of the following have you tried if any?",
+          "subInfo": "this question has 3 parts",
+          "subHeading": "Part 2 - Online community groups/forums and/or listed on alternative web directories i.e., Trip Advisor, Yelp, Apple Maps",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No"
+          ]
+         }
+        },
+        {
+         "externalId": "15",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Have you considered alternative ways to reach (potential) customers? Which of the following have you tried if any?",
+          "subInfo": "this question has 3 parts",
+          "subHeading": "Part 3 - Targeted online advertising",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No"
+          ]
+         }
+        },
+        {
+         "externalId": "16",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "How do you ensure that you're able to continuously engage with your customers?",
+          "subInfo": "this question has 3 parts",
+          "subHeading": "Part 1 - Contact details i.e. on my website, GMB, social platforms",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        },
+        {
+         "externalId": "17",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "How do you ensure that you're able to continuously engage with your customers?",
+          "subInfo": "this question has 3 parts",
+          "subHeading": "Part 2 - Email list / newsletter with exclusive content",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        },
+        {
+         "externalId": "18",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "How do you ensure that you're able to continuously engage with your customers?",
+          "subInfo": "this question has 3 parts",
+          "subHeading": "Part 3 - Engagement across my business’ entire digital presence i.e., responding to comments / messages on social media, GMB & Trip Advisor",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        },
+        {
+         "externalId": "19",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Is your entire digital presence backed-up and secure? ",
+          "subInfo": "",
+          "subHeading": "",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        },
+        {
+         "externalId": "20",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Do you track analytics across your business’ entire digital presence?",
+          "subInfo": "",
+          "subHeading": "",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        },
+        {
+         "externalId": "21",
+         "section": "find keep",
+         "template": "ButtonSelector",
+         "total": "14",
+         "relationship": {
+          "relationship": "followUp",
+          "criteriaName": "response",
+          "criteriaValue": [
+           "Yes"
+          ],
+          "criteriaOperator": "EQ"
+         },
+         "question": {
+          "id": "8",
+          "questionText": "Do you comply with the legal and regulatory requirements that apply to your business?",
+          "subInfo": "",
+          "subHeading": "",
+          "responseType": "multipleChoiceSingleResponse",
+          "responseOption": [
+           "Yes",
+           "No",
+           "Partially"
+          ]
+         }
+        }]
+      }]
+    }
+   }
+  ]
+ }

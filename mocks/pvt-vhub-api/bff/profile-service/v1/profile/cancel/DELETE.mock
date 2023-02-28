@@ -1,0 +1,4 @@
+HTTP/1.1 204 Deleted
+
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
