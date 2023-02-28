@@ -1,3 +1,9 @@
 [build]
-  command = "node mockserver.js &"
-  publish = "/dist"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  MOCK_SERVER_COMMAND = "node mockserver.js"
+
+[build.postbuild]
+  command = "${MOCK_SERVER_COMMAND}"
