@@ -1,6 +1,5 @@
 [build]
-  command = "npm i"
-  publish = "dist"
+  command = "echo 'Build complete'"
 
 [build.environment]
   MOCK_SERVER_COMMAND = "node mockserver.js"
