@@ -30,7 +30,7 @@
         {
          "externalId": "1",
          "section": "about business",
-         "total": "7",
+         "total": "9",
          "template": "NameTyper",
          "relationship": {
           "relationship": "followUp",
@@ -50,7 +50,7 @@
         {
          "externalId": "2",
          "section": "about business",
-         "total": "7",
+         "total": "9",
          "template": "IconSelector",
          "relationship": {
           "relationship": "followUp",
@@ -83,7 +83,7 @@
         {
          "externalId": "3",
          "section": "about business",
-         "total": "7",
+         "total": "9",
          "template": "IconSelector",
          "relationship": {
           "relationship": "followUp",
@@ -105,14 +105,12 @@
         {
          "externalId": "4",
          "section": "about business",
-         "total": "7",
+         "total": "9",
          "template": "DropDown",
          "relationship": {
           "relationship": "followUp",
           "criteriaName": "response",
-          "criteriaValue": [
-           "UK"
-          ],
+          "criteriaValue": [],
           "criteriaOperator": "EQ"
          },
          "question": {
@@ -128,7 +126,7 @@
         {
          "externalId": "5",
          "section": "about business",
-         "total": "7",
+         "total": "9",
          "template": "ButtonSelector",
          "relationship": {
           "relationship": "followUp",
@@ -152,7 +150,7 @@
         {
          "externalId": "6",
          "section": "about business",
-         "total": "7",
+         "total": "9",
          "template": "TextField",
          "relationship": {
           "relationship": "followUp",
@@ -172,7 +170,7 @@
         {
          "externalId": "7",
          "section": "about business",
-         "total": "7",
+         "total": "9",
          "template": "ButtonSelector",
          "relationship": {
           "relationship": "followUp",
@@ -190,6 +188,51 @@
            "B2B2C"
           ]
          }
+        },
+        {
+          "externalId": "7",
+          "section": "about business",
+          "total": "9",
+          "template": "ButtonSelector",
+          "relationship": {
+           "relationship": "followUp",
+           "criteriaName": "response",
+           "criteriaValue": ["Remote"],
+           "criteriaOperator": "EQ"
+          },
+          "question": {
+           "id": "8",
+           "questionText": "Where do you employees work ?",
+           "responseType": "multipleChoiceSingleResponse",
+           "responseOption": [
+            "Office",
+            "Remote",
+            "Combination of Office & Remote"
+           ]
+          }
+         },
+         {
+           "externalId": "8",
+           "section": "about business",
+           "total": "9",
+           "template": "ButtonSelector",
+           "relationship": {
+            "relationship": "followUp",
+            "criteriaName": "response",
+            "criteriaValue": [],
+            "criteriaOperator": "EQ"
+           },
+           "question": {
+            "id": "6",
+            "questionText": "No. of employees",
+            "responseType": "multipleChoiceSingleResponse",
+            "responseOption": [
+             "0-9",
+             "10-49",
+             "50-149",
+             "150+"
+            ]
+          }
         },
         {
          "externalId": "8",
@@ -284,7 +327,7 @@
           "id": "8",
           "questionText": "Is your online presence optimised?",
           "subInfo": "This question has 3 parts",
-          "subHeading": "2 - Our Google My Business profile is complete and up to date",
+          "subHeading": "Part 2 - Our Google My Business profile is complete and up to date",
           "responseType": "multipleChoiceSingleResponse",
           "responseOption": [
            "Yes",

@@ -28,194 +28,212 @@
        ],
        "relatedQuestion": [
         {
-         "externalId": "1",
-         "section": "about business",
-         "total": "8",
-         "template": "NameTyper",
-         "relationship": {
-          "relationship": "followUp",
-          "criteriaName": "response",
-          "criteriaValue": [
-           "ABC Corporation"
-          ],
-          "criteriaOperator": "EQ"
-         },
-         "question": {
-          "id": "1",
-          "questionText": "Your Business Name",
-          "responseType": "multipleChoiceSingleResponse",
-          "responseOption": []
-         }
-        },
-        {
-         "externalId": "2",
-         "section": "about business",
-         "total": "8",
-         "template": "IconSelector",
-         "relationship": {
-          "relationship": "followUp",
-          "criteriaName": "response",
-          "criteriaValue": [
-           "Finance & Insurance"
-          ],
-          "criteriaOperator": "EQ"
-         },
-         "question": {
-          "id": "2",
-          "questionText": "Select your Industry",
-          "responseType": "multipleChoiceSingleResponse",
-          "responseOption": [
-           "Accommodation & Food",
-           "Goods Manufacturing",
-           "Arts & Entertainment",
-           "Human Health & Social Work",
-           "Construction",
-           "Media & Communication",
-           "Education",
-           "Professional, Scientific & Technical Service",
-           "Finance & Insurance",
-           "Travel & Transportation",
-           "Wholesale & Retail Trade",
-           "Other Industries"
-           ]
-         }
-        },
-        {
-         "externalId": "3",
-         "section": "about business",
-         "total": "8",
-         "template": "IconSelector",
-         "relationship": {
-          "relationship": "followUp",
-          "criteriaName": "response",
-          "criteriaValue": ["Option Two"],
-          "criteriaOperator": "EQ"
-         },
-         "question": {
-          "id": "3",
-          "questionText": "Select your Business Sector",
-          "responseType": "multipleChoiceSingleResponse",
-          "responseOption": [
-           "Option One",
-           "Option Two",
-           "Other Sector"
-          ]
-         }
-        },
-        {
-         "externalId": "4",
-         "section": "about business",
-         "total": "8",
-         "template": "DropDown",
-         "relationship": {
-          "relationship": "followUp",
-          "criteriaName": "response",
-          "criteriaValue": [
-           "UK"
-          ],
-          "criteriaOperator": "EQ"
-         },
-         "question": {
-          "id": "4",
-          "questionText": "Select your Country of Operations",
-          "responseType": "multipleChoiceSingleResponse",
-          "responseOption": [
-           "UK",
-           "US"
-          ]
-         }
-        },
-        {
-         "externalId": "5",
-         "section": "about business",
-         "total": "8",
-         "template": "ButtonSelector",
-         "relationship": {
-          "relationship": "followUp",
-          "criteriaName": "response",
-          "criteriaValue": [
-           "Service"
-          ],
-          "criteriaOperator": "EQ"
-         },
-         "question": {
-          "id": "5",
-          "questionText": "Select your type of Operations",
-          "responseType": "multipleChoiceSingleResponse",
-          "responseOption": [
-           "Product",
-           "Service",
-           "Both"
-          ]
-         }
-        },
-        {
-         "externalId": "6",
-         "section": "about business",
-         "total": "8",
-         "template": "TextField",
-         "relationship": {
-          "relationship": "followUp",
-          "criteriaName": "response",
-          "criteriaValue": [
-           "Duis porttitor commodo lorem eu pharetra. Ut dignissim nisl in dui condimentum sagittis. Integer eu bibendum nisi. Vestibulum id quam in libero varius sagittis eget pellentesque risus. Donec imperdiet, diam a molestie vehicula, orci ligula fermentum arcu, blandit tempor sem libero ut ipsum."
-          ],
-          "criteriaOperator": "EQ"
-         },
-         "question": {
-          "id": "6",
-          "questionText": "Product and/or service description",
-          "responseType": "multipleChoiceSingleResponse",
-          "responseOption": []
-         }
-        },
-        {
-         "externalId": "7",
-         "section": "about business",
-         "total": "8",
-         "template": "ButtonSelector",
-         "relationship": {
-          "relationship": "followUp",
-          "criteriaName": "response",
-          "criteriaValue": ["Remote"],
-          "criteriaOperator": "EQ"
-         },
-         "question": {
-          "id": "8",
-          "questionText": "Where do you employees work ?",
-          "responseType": "multipleChoiceSingleResponse",
-          "responseOption": [
-           "Office",
-           "Remote",
-           "Combination of Office & Remote"
-          ]
-         }
-        },
-        {
-          "externalId": "8",
+          "externalId": "1",
           "section": "about business",
-          "total": "8",
+          "total": "9",
+          "template": "NameTyper",
+          "relationship": {
+           "relationship": "followUp",
+           "criteriaName": "response",
+           "criteriaValue": [
+            "ABC Corporation"
+           ],
+           "criteriaOperator": "EQ"
+          },
+          "question": {
+           "id": "1",
+           "questionText": "Your Business Name",
+           "responseType": "multipleChoiceSingleResponse",
+           "responseOption": []
+          }
+         },
+         {
+          "externalId": "2",
+          "section": "about business",
+          "total": "9",
+          "template": "IconSelector",
+          "relationship": {
+           "relationship": "followUp",
+           "criteriaName": "response",
+           "criteriaValue": [
+            "Finance & Insurance"
+           ],
+           "criteriaOperator": "EQ"
+          },
+          "question": {
+           "id": "2",
+           "questionText": "Select your Industry",
+           "responseType": "multipleChoiceSingleResponse",
+           "responseOption": [
+            "Accommodation & Food",
+            "Goods Manufacturing",
+            "Arts & Entertainment",
+            "Human Health & Social Work",
+            "Construction",
+            "Media & Communication",
+            "Education",
+            "Professional, Scientific & Technical Service",
+            "Finance & Insurance",
+            "Travel & Transportation",
+            "Wholesale & Retail Trade",
+            "Other Industries"
+            ]
+          }
+         },
+         {
+          "externalId": "3",
+          "section": "about business",
+          "total": "9",
+          "template": "IconSelector",
+          "relationship": {
+           "relationship": "followUp",
+           "criteriaName": "response",
+           "criteriaValue": ["Option Two"],
+           "criteriaOperator": "EQ"
+          },
+          "question": {
+           "id": "3",
+           "questionText": "Select your Business Sector",
+           "responseType": "multipleChoiceSingleResponse",
+           "responseOption": [
+            "Option One",
+            "Option Two",
+            "Other Sector"
+           ]
+          }
+         },
+         {
+          "externalId": "4",
+          "section": "about business",
+          "total": "9",
+          "template": "DropDown",
+          "relationship": {
+           "relationship": "followUp",
+           "criteriaName": "response",
+           "criteriaValue": [],
+           "criteriaOperator": "EQ"
+          },
+          "question": {
+           "id": "4",
+           "questionText": "Select your Country of Operations",
+           "responseType": "multipleChoiceSingleResponse",
+           "responseOption": [
+            "UK",
+            "US"
+           ]
+          }
+         },
+         {
+          "externalId": "5",
+          "section": "about business",
+          "total": "9",
           "template": "ButtonSelector",
           "relationship": {
            "relationship": "followUp",
            "criteriaName": "response",
            "criteriaValue": [
-            "0-9"
+            "Service"
+           ],
+           "criteriaOperator": "EQ"
+          },
+          "question": {
+           "id": "5",
+           "questionText": "Select your type of Operations",
+           "responseType": "multipleChoiceSingleResponse",
+           "responseOption": [
+            "Product",
+            "Service",
+            "Both"
+           ]
+          }
+         },
+         {
+          "externalId": "6",
+          "section": "about business",
+          "total": "9",
+          "template": "TextField",
+          "relationship": {
+           "relationship": "followUp",
+           "criteriaName": "response",
+           "criteriaValue": [
+            "Duis porttitor commodo lorem eu pharetra. Ut dignissim nisl in dui condimentum sagittis. Integer eu bibendum nisi. Vestibulum id quam in libero varius sagittis eget pellentesque risus. Donec imperdiet, diam a molestie vehicula, orci ligula fermentum arcu, blandit tempor sem libero ut ipsum."
            ],
            "criteriaOperator": "EQ"
           },
           "question": {
            "id": "6",
-           "questionText": "No. of employees",
+           "questionText": "Product and/or service description",
+           "responseType": "multipleChoiceSingleResponse",
+           "responseOption": []
+          }
+         },
+         {
+          "externalId": "7",
+          "section": "about business",
+          "total": "9",
+          "template": "ButtonSelector",
+          "relationship": {
+           "relationship": "followUp",
+           "criteriaName": "response",
+           "criteriaValue": ["B2B"],
+           "criteriaOperator": "EQ"
+          },
+          "question": {
+           "id": "8",
+           "questionText": "Who is your customer?",
            "responseType": "multipleChoiceSingleResponse",
            "responseOption": [
-            "0-9",
-            "10-49",
-            "50-149",
-            "150+"
+            "B2B",
+            "B2C",
+            "B2B2C"
            ]
           }
-        },
+         },
+         {
+           "externalId": "7",
+           "section": "about business",
+           "total": "9",
+           "template": "ButtonSelector",
+           "relationship": {
+            "relationship": "followUp",
+            "criteriaName": "response",
+            "criteriaValue": ["Remote"],
+            "criteriaOperator": "EQ"
+           },
+           "question": {
+            "id": "8",
+            "questionText": "Where do you employees work ?",
+            "responseType": "multipleChoiceSingleResponse",
+            "responseOption": [
+             "Office",
+             "Remote",
+             "Combination of Office & Remote"
+            ]
+           }
+          },
+          {
+            "externalId": "8",
+            "section": "about business",
+            "total": "9",
+            "template": "ButtonSelector",
+            "relationship": {
+             "relationship": "followUp",
+             "criteriaName": "response",
+             "criteriaValue": [],
+             "criteriaOperator": "EQ"
+            },
+            "question": {
+             "id": "6",
+             "questionText": "No. of employees",
+             "responseType": "multipleChoiceSingleResponse",
+             "responseOption": [
+              "0-9",
+              "10-49",
+              "50-149",
+              "150+"
+             ]
+           }
+         },
         {
          "externalId": "8",
          "section": "find keep",
