@@ -26,7 +26,7 @@
     {
       "name": "KnowledgeCenterPreferences",
       "valueType": "String-List",
-      "value": ["Social media"]
+      "value": []
     },
     {
       "name": "SavedArticles",
