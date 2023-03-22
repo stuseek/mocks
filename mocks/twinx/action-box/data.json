@@ -91,39 +91,39 @@
               ]
             }, {
               "id": "4",
-              "name": "website",
-              "description": "website helps your business to reach more customers",
+              "name": "Team engagement and activities",
+              "description": "Getting your team engaged in some activites help teammates work better together",
               "subCategory": "Productive Workforce",
               "itemCount": 2,
               "completionCount": 1,
               "items": [
                 {
                   "id": "abc1",
-                  "description": "abc1 desc",
+                  "description": "Team building activities",
                   "status": "initialized"
                 },
                 {
                   "id": "abc2",
-                  "description": "abc2 desc",
+                  "description": "Lending a helping hand",
                   "status": "completed"
                 }
               ]
             }, {
               "id": "5",
-              "name": "website 2",
-              "description": "website helps your business to reach more customers",
+              "name": "Upskilling and improving on the existing skills",
+              "description": "New skills allow your workforce to improve their productivity and take new challenges",
               "subCategory": "Productive Workforce",
               "itemCount": 2,
               "completionCount": 1,
               "items": [
                 {
                   "id": "abc1",
-                  "description": "abc1 desc",
+                  "description": "Upskilling with skills relevant to organisation",
                   "status": "initialized"
                 },
                 {
                   "id": "abc2",
-                  "description": "abc2 desc",
+                  "description": "Striving for self improvement",
                   "status": "completed"
                 }
               ]
