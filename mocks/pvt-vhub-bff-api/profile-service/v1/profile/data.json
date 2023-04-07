@@ -20,7 +20,7 @@
         "consentDate": "2022-11-24T10:32:51.883Z",
         "consentChannel": "V-Hub",
         "consentToDataProcessing": true,
-        "consentToVFMarketing": false
+        "consentToVFMarketing": true
       }
     },
     {

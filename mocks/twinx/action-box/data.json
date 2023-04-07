@@ -30,21 +30,25 @@
                   "id": "abc2",
                   "description": "Find out where your audience is most active.",
                   "status": "completed"
-                },{
+                },
+                {
                   "id": "abc3",
                   "description": "Study your competitors' target audiences.",
                   "status": "initialized"
-                },{
+                },
+                {
                   "id": "abc4",
                   "description": "Identify or create buyer personas.",
                   "status": "initialized"
-                },{
+                },
+                {
                   "id": "abc5",
                   "description": "Survey your customers.",
                   "status": "initialized"
                 }
               ]
-            }, {
+            },
+            {
               "id": "2",
               "name": "Get an online presence for your business​",
               "description": "Define your target audience by running a product market fit workshop with your team",
@@ -58,7 +62,8 @@
                   "status": "completed"
                 }
               ]
-            }, {
+            },
+            {
               "id": "3",
               "name": "Optimise that online presence - find the customers you're looking for and help them to find you",
               "description": "website helps your business to reach more customers",
@@ -68,28 +73,32 @@
               "items": [
                 {
                   "id": "abc1",
-                  "description": "abc1 desc",
+                  "description": "Identify or create buyer personas.",
                   "status": "initialized"
                 },
                 {
                   "id": "abc2",
-                  "description": "abc2 desc",
+                  "description": "Find out where your audience is most active.",
                   "status": "completed"
-                },{
+                },
+                {
                   "id": "abc3",
-                  "description": "abc3 desc",
+                  "description": "Study your competitors' target audiences.",
                   "status": "initialized"
-                },{
+                },
+                {
                   "id": "abc4",
-                  "description": "abc4 desc",
+                  "description": "Identify or create buyer personas.",
                   "status": "initialized"
-                },{
+                },
+                {
                   "id": "abc5",
-                  "description": "abc5 desc",
+                  "description": "Survey your customers.",
                   "status": "initialized"
                 }
               ]
-            }, {
+            },
+            {
               "id": "4",
               "name": "Team engagement and activities",
               "description": "Getting your team engaged in some activites help teammates work better together",
@@ -108,7 +117,8 @@
                   "status": "completed"
                 }
               ]
-            }, {
+            },
+            {
               "id": "5",
               "name": "Upskilling and improving on the existing skills",
               "description": "New skills allow your workforce to improve their productivity and take new challenges",
@@ -127,7 +137,8 @@
                   "status": "completed"
                 }
               ]
-            }, {
+            },
+            {
               "id": "6",
               "name": "Identify your customer - who are you targeting, where will you find them (what channels), and what are they looking for",
               "description": "What is your customers interest and requirements?",
@@ -144,15 +155,18 @@
                   "id": "abc2",
                   "description": "Find out where your audience is most active.",
                   "status": "completed"
-                },{
+                },
+                {
                   "id": "abc3",
                   "description": "Study your competitors' target audiences.",
                   "status": "initialized"
-                },{
+                },
+                {
                   "id": "abc4",
                   "description": "Identify or create buyer personas.",
                   "status": "initialized"
-                },{
+                },
+                {
                   "id": "abc5",
                   "description": "Survey your customers.",
                   "status": "initialized"

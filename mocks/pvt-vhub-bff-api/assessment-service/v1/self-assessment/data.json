@@ -1,0 +1,79 @@
+{
+  "id": "48c02f83-be54-42c0-a0c6-1ebde9ceec4c",
+  "direction": "outbound",
+  "reason": "Customer wants to take an assessment",
+  "interactionItem": [
+    {
+      "item": {
+        "question": [
+          {
+            "id": "1",
+            "questionText": "Business Name",
+            "responseType": null,
+            "responseOption": ["Free text"]
+          },
+          {
+            "id": "2",
+            "questionText": "Industry",
+            "responseType": "multipleChoiceSingleResponse",
+            "responseOption": [
+              "Accommodation & Food",
+              "Arts & Entertainment",
+              "Construction",
+              "Education",
+              "Service",
+              "Financial & Insurance",
+              "Goods Manufacturing",
+              "Human Health & Social Work",
+              "Information & Communication",
+              "Professional, Scientific & Technical Service",
+              "Travel & Transportation",
+              "Wholesale & Retail Trade"
+            ]
+          },
+          {
+            "id": "3",
+            "questionText": "Sector",
+            "responseType": "multipleChoiceSingleResponse",
+            "responseOption": [
+              "Relevant Vodafone Sub-Industry Sector Titles to be defined - must align with Xplain 90+ Business Types"
+            ]
+          },
+          {
+            "id": "4",
+            "questionText": "Geography",
+            "responseType": "multipleChoiceSingleResponse",
+            "responseOption": [
+              "Main country of operation or Headquarter country & continent covered / global"
+            ]
+          },
+          {
+            "id": "5",
+            "questionText": "Product / Service",
+            "responseType": "multipleChoiceSingleResponse",
+            "responseOption": ["Product", "Service", "Product & Service"]
+          },
+          {
+            "id": "6",
+            "questionText": "What is that Product / Service",
+            "responseType": null,
+            "responseOption": ["Free text"]
+          },
+          {
+            "id": "7",
+            "questionText": "Business Revenue",
+            "responseType": "multipleChoiceSingleResponse",
+            "responseOption": [
+              "Pre-revenue",
+              "Up to £500k",
+              "Up to £1M",
+              "Up to £5M",
+              "Up to £10M",
+              "Over £10M"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

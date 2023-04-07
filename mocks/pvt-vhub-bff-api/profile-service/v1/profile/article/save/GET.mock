@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Mon, 29 Nov 2021 07:23:33 GMT
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+set-cookie: sessionId=738645a4-f494-11eb-9a03-0242ac130003
+x-source-system: Private-V-Hub-FED
+
+
+#import './data.json';

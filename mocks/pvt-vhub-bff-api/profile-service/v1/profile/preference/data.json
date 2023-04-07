@@ -1,0 +1,13 @@
+{
+  "name": "KnowledgeCenterPreferences",
+  "valueType": "String-List",
+  "value": {
+    "knowledgeCenterPreferences": [
+      "Website",
+      "Seo & Google",
+      "Mobile applications (Apps)",
+      "VPNs",
+      "Digital tools"
+    ]
+  }
+}

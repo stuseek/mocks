@@ -43,5 +43,5 @@
   "employeeOptions": ["Below 10", "10 to 50", "Above 50"],
   "businessTargetsOptions": ["Consumers", "B2B", "Both"],
   "branchOptions": ["1-2", "3-5", "6-10", ">10"],
-  "actionPlan":[{"id":6223222,"actionPlan":["Task1","Task2"]}]
+  "actionPlan": [{ "id": 6223222, "actionPlan": ["Task1", "Task2"] }]
 }
