@@ -1,0 +1,596 @@
+{
+    "id": "8b50364c-17ab-4a83-b34e-bbebb27af1df",
+    "direction": "outbound",
+    "reason": "Customer wants to take an assessment",
+    "interactionItem": [
+        {
+            "id": "2,1",
+            "item": {
+                "category": [
+                    {
+                        "name": "Finding & Keeping Customers",
+                        "subCategory": [
+                            {
+                                "name": "Finding & Keeping Customers"
+                            }
+                        ]
+                    }
+                ],
+                "question": [
+                    {
+                        "id": "4",
+                        "externalId": "8",
+                        "questionText": "Can you clearly define who your target customer is?",
+                        "responseType": "multipleChoiceSingleResponse",
+                        "responseOption": [
+                            "No & I don't Know",
+                            "Partially",
+                            "Yes"
+                        ],
+                        "relatedQuestion": null
+                    },
+                    {
+                        "id": "5",
+                        "externalId": "9",
+                        "questionText": "Which of the following do you have?",
+                        "responseType": "multipleChoiceSingleResponse",
+                        "responseOption": [
+                            "None or social Media only",
+                            "Website and GMB",
+                            "Website and Social Media",
+                            "GMB and Social Media",
+                            "Website, Social Media and GMB"
+                        ],
+                        "relatedQuestion": null
+                    },
+                    {
+                        "id": "6",
+                        "externalId": "10",
+                        "questionText": "Is your online presence optimised?",
+                        "responseType": null,
+                        "responseOption": null,
+                        "relatedQuestion": [
+                            {
+                                "externalId": "12",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "1",
+                                    "questionText": "Our Website is optimised with great content, great device & browser compatibility, availability, and SEO",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "13",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "2",
+                                    "questionText": "Our Google My Business profile is complete and up to date",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "14",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "3",
+                                    "questionText": "Our Social Media accounts are integrated, and we have an active presence across all",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "7",
+                        "externalId": "11",
+                        "questionText": "Have you considered alternative ways to reach (potential) customers? Which of the following have you tried if any?",
+                        "responseType": null,
+                        "responseOption": null,
+                        "relatedQuestion": [
+                            {
+                                "externalId": "15",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "4",
+                                    "questionText": "Social influencers and/or partnerships with other businesses",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "16",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "5",
+                                    "questionText": "Online community groups/forums and/or listed on alternative web directories i.e., Trip Advisor, Yelp, Apple Maps ",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "17",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "6",
+                                    "questionText": "Targeted online advertising ",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Yes"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8",
+                        "externalId": "12",
+                        "questionText": "Do you track analytics across your business’ entire digital presence?",
+                        "responseType": "multipleChoiceSingleResponse",
+                        "responseOption": [
+                            "No & I don't Know",
+                            "Partially",
+                            "Yes"
+                        ],
+                        "relatedQuestion": null
+                    },
+                    {
+                        "id": "9",
+                        "externalId": "13",
+                        "questionText": "How do you ensure that you're able to continuously engage with your customers?",
+                        "responseType": null,
+                        "responseOption": null,
+                        "relatedQuestion": [
+                            {
+                                "externalId": "18",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "7",
+                                    "questionText": "Contact details i.e. on my website, GMB, social platforms",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "19",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "8",
+                                    "questionText": "Email list / newsletter with exclusive content",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "20",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "9",
+                                    "questionText": "Engagement across my business’ entire digital presence",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "10",
+                        "externalId": "14",
+                        "questionText": "Is your entire digital presence backed-up and secure? ",
+                        "responseType": "multipleChoiceSingleResponse",
+                        "responseOption": [
+                            "No & I don't Know",
+                            "Partially",
+                            "Yes"
+                        ],
+                        "relatedQuestion": null
+                    },
+                    {
+                        "id": "11",
+                        "externalId": "15",
+                        "questionText": "Do you comply with the legal and regulatory requirements that apply to your business?",
+                        "responseType": "multipleChoiceSingleResponse",
+                        "responseOption": [
+                            "No & I don't Know",
+                            "Partially",
+                            "Yes"
+                        ],
+                        "relatedQuestion": null
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2,1",
+            "item": {
+                "category": [
+                    {
+                        "name": "Productive Workforce",
+                        "subCategory": [
+                            {
+                                "name": "Productive Workforce"
+                            }
+                        ]
+                    }
+                ],
+                "question": [
+                    {
+                        "id": "12",
+                        "externalId": "3",
+                        "questionText": "Have you got the right infrastructure and tools in place to enable this working model?",
+                        "responseType": null,
+                        "responseOption": null,
+                        "relatedQuestion": [
+                            {
+                                "externalId": "1",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "10",
+                                    "questionText": "We have the right devices",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No",
+                                        "Don't Know",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "2",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "11",
+                                    "questionText": "We have good bandwidth to support us",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No",
+                                        "Don't Know",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "3",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "12",
+                                    "questionText": "We have the right supporting equipment",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No",
+                                        "Don't Know",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "4",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "13",
+                                    "questionText": "We have the right software & tools",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No",
+                                        "Don't Know",
+                                        "Yes"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "13",
+                        "externalId": "4",
+                        "questionText": "How does your team digitally communicate with each other?",
+                        "responseType": "multipleChoiceSingleResponse",
+                        "responseOption": [
+                            "We use basic telephony and simple email/text ",
+                            "My team use a variety of solutions based on personal preferences",
+                            "My team are using a consolidated list of text-based, telephony and video conferencing solutions"
+                        ],
+                        "relatedQuestion": null
+                    },
+                    {
+                        "id": "14",
+                        "externalId": "5",
+                        "questionText": "How does your team collaborate?",
+                        "responseType": null,
+                        "responseOption": null,
+                        "relatedQuestion": [
+                            {
+                                "externalId": "5",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "14",
+                                    "questionText": "We use Microsoft Teams, or an alternative Cloud-based Document Management Tools",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No",
+                                        "Don't Know",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "6",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "15",
+                                    "questionText": "We use Mural or an alternative Visual Collaboration tools ",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No",
+                                        "Don't Know",
+                                        "Yes"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "externalId": "6",
+                        "questionText": "Have you got the right policies and processes in place to be productive?",
+                        "responseType": null,
+                        "responseOption": null,
+                        "relatedQuestion": [
+                            {
+                                "externalId": "7",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "16",
+                                    "questionText": "We have documented support processes in place if things go wrong",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "8",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "17",
+                                    "questionText": "We have clear working policies and training in place",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "9",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "18",
+                                    "questionText": "We provide all our employees with business devices and have clear guidelines on their use",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "15",
+                        "externalId": "16",
+                        "questionText": "Have you got the right policies and processes in place to be productive?",
+                        "responseType": null,
+                        "responseOption": null,
+                        "relatedQuestion": [
+                            {
+                                "externalId": "10",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "19",
+                                    "questionText": "All our devices are protected and secure",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No & I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            },
+                            {
+                                "externalId": "11",
+                                "relationship": {
+                                    "relationship": "followUp",
+                                    "criteriaName": "response",
+                                    "criteriaValue": [
+                                        null
+                                    ],
+                                    "criteriaOperator": null
+                                },
+                                "question": {
+                                    "id": "20",
+                                    "questionText": "All company and client data is secure and backed up",
+                                    "responseType": "multipleChoiceSingleResponse",
+                                    "responseOption": [
+                                        "No",
+                                        "I don't Know",
+                                        "Partially",
+                                        "Yes"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
